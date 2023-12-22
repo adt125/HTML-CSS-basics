@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Boxes</title>
+    <style>
+        .b1{
+            border-color: grey;
+            border-style: solid;
+            border-radius: 6px;
+            border-width: 1px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .b2{
+            width: 400px;
+            border: none;
+            padding-top: 10px;
+            border-radius: 20px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            box-shadow: 0px 1px 5px rgb(0,0,0,0.6);
+            outline: none;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        p{
+            color: rgb(96, 96, 96);
+            font-family: Arial;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .b3{
+            width: 329px;
+            padding: 6px 10px;
+            border: 2px solid black;
+            border-radius: 4px;
+            margin-bottom: 5px;
+        }
+        .join{
+            margin-top: 10px;
+            background-color: rgb(10,102,194);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            padding: 10px 130px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            object-fit: cover;
+            object-position: center;
+            vertical-align: middle;
+        }
+        .tweet{
+            border: none;
+            outline: none;
+            font-size: 16px;
+            vertical-align: middle;
+            margin-left: 5px;
+            width: 300px;
+        }
+        .tweet:focus{
+            color: rgb(96, 96, 96);
+        }
+        .tweet-button{
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 7px 20px;
+            cursor: pointer;   
+        }
+    </style>
+</head>
+<body>
+    <input class="b1" type="text" placeholder="Search">
+    <input class="b2" type="text" placeholder="Search Google or type a URL">
+    
+    <p>Email</p>
+    <input class="b3" type="text">
+    <p>By clicking Agree & Join, you agree to the Privacy Policy.</p>
+    <button class="join">Agree & Join</button>
+    <hr size="3" noshade="100" color="black">
+
+    <img src="thumbnails/cat.jpg">
+    <input class="tweet" type="text" placeholder="What's happening?">
+    <button class="tweet-button">Tweet</button>
+</body>
+</html>

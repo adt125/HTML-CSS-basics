@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox example</title>
+</head>
+<body style="margin-bottom: 1000px;">
+    <div style="display: flex;">
+        <div style="background-color: lightblue;">div1 text <p>text in p</p></div>
+        <div style="background-color: lightpink;">div2</div>
+    </div>
+
+    <div style="
+        display: flex; 
+        flex-direction:roww; 
+        margin-top: 30px;
+    ">
+        <div style="
+            background-color: lightblue;
+            width: 100px;
+        ">
+            div1 text <p>text in p</p>
+        </div>
+        <div style="
+            background-color: lightpink;
+            flex: 1;
+        ">
+            div2
+        </div>
+        <div style="
+            background-color: lightblue;
+            flex: 4;
+        ">
+            div3
+        </div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px; border: 2px solid black; height: 70px;">
+        <div style="background-color: lightblue; width: 100px;">div1</div>
+        <div style="background-color: lightpink; width: 100px;">div2</div>
+        <div style="background-color: lightskyblue; width: 100px;">div3</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px; border: 2px solid black; height: 70px; justify-content: space-around;">
+        <div style="background-color: lightblue; width: 100px;">div1 justify-content space around</div>
+        <div style="background-color: lightpink; width: 100px;">div2</div>
+        <div style="background-color: lightskyblue; width: 100px;">div3</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px; border: 2px solid black; height: 70px; justify-content: center;">
+        <div style="background-color: lightblue; width: 100px;">div1 justify-content center</div>
+        <div style="background-color: lightpink; width: 100px;">div2</div>
+        <div style="background-color: lightskyblue; width: 100px;">div3</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px; border: 2px solid black; height: 70px; justify-content: center; align-items: center;">
+        <div style="background-color: lightblue; width: 100px;">div1 justify-content center</div>
+        <div style="background-color: lightpink; width: 100px;">div2 align center</div>
+        <div style="background-color: lightskyblue; width: 100px;">div3</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px; border: 2px solid black; height: 70px; justify-content: space-between; align-items: center;">
+        <div style="background-color: lightblue; width: 100px;">div1 justify-content space-between</div>
+        <div style="background-color: lightpink; width: 100px;">div2 align center</div>
+        <div style="background-color: lightskyblue; width: 100px;">div3</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px;">
+        <div style="background-color: lightblue; width: 50px;">50px</div>
+        <div style="background-color: lightpink; flex:1;">flex1</div>
+        <div style="background-color: lightblue; width: 75px;">75px</div>
+    </div>
+
+    <div style="border: 2px solid black; display: flex; justify-content: space-between;">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <div style="border: 2px solid black; display: flex; justify-content: space-between; height: 100px; align-items: center;">
+        <div style="width: 100px; background-color: lightpink;">1</div>
+        <div style="width: 100px; background-color: lightpink;">2</div>
+    </div>
+</body>
+</html>

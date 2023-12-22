@@ -1,0 +1,90 @@
+.thumb {
+    width: 300px;
+    height: 168.33px;
+    object-fit: cover;
+    object-position: middle;
+    display: block;
+}
+p{
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.preview {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.channel-pic{
+    width: 45px;
+    display: inline-block;
+    vertical-align: top;
+}
+.profile-pic{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.content{
+    display: inline-block;
+    width: 250px;
+}
+.title{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.name{
+    margin-top: 10px;
+    color: rgb(96,96,96);
+    font-size: 14px;
+}
+.views{
+    margin-top: 2px;
+    color: rgb(96,96,96);
+    font-size: 14px;
+}
+.dp-pic{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.social{
+    margin-top: 30px;
+    width: fit-content;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.description{
+    display: inline-block;
+    width: 180px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.follow-button{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: Roboto;
+}
+.handel-name{
+    font-weight: 700;
+    font-size: 16px;
+}
+.handel-des,.handel-tag{
+    font-size: 16px;
+    color: rgb(96,96,96);
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding exercise</title>
+</head>
+<body>
+    <style>
+        .nav-button{
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 16px;
+            border-radius: 3px;
+            border-width: 1px;
+            cursor: pointer;
+        }
+        .nav-button#back{
+            margin-right: 5px;
+        }
+        #next{
+            margin-left: 5px;
+        }
+        .pages{
+            margin-left: 5px;
+            margin-right: 5px;
+            font-size: 16px;
+        }
+        .stretch{
+            background-color: green;
+            color: white;
+            font-size: 15px;
+            margin-top: 10px;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            cursor: pointer;
+            transition: all 0.25s;
+        }
+        .stretch:hover{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .threed{
+            background-color: green;
+            color: white;
+            font-size: 15px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            cursor: pointer;
+            box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+        }
+        .threed:active{
+            margin-top: 14px;
+            margin-left: 4px;
+            box-shadow: none;
+        }
+        .side{
+            background-color: green;
+            color: white;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 16px;
+            padding-right: 16px;
+            margin-left: 12px;
+            margin-right: 12px;
+            cursor: pointer;
+        }
+        .side:hover{
+            margin-left: 0px;
+            margin-right: 0px;
+            padding-left: 28px;
+            padding-right: 28px;
+        }
+    </style>
+    <button class="nav-button" id="back">Back</button>
+    <a class="pages" href="none">1</a>
+    <a class="pages" href="none">2</a>
+    <a class="pages" href="none">3</a>
+    <a class="pages" href="none">4</a>
+    <a class="pages" href="none">5</a>
+    <button class="nav-button" id="next">Next</button>
+    <br>
+    <button class="stretch">Stretch</button>
+    <br>
+    <button class="threed">Shadow</button>
+    <br>
+    <button class="side">One</button>
+    <button class="side">Two</button>
+    <button class="side">Three</button>
+</body>
+</html>

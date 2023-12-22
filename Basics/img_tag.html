@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <style>
+        .thumb{
+            width: 300px;
+            height: 300px;
+            object-fit: contain;
+            object-position: bottom;
+            border-color: red;
+            border-style: dashed;
+            border-width: 2px;
+        }
+        .cat{
+            width: 200px;
+            margin-right: 20px;
+        }
+        #c1{
+            border-radius: 15px;
+        }
+        #c2{
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+        }
+        #c3{
+            height: 200px;
+            border-radius: 200px;
+            object-fit: cover;
+            object-position: center;
+        }
+    </style>
+</head>
+<body>
+    <img class="thumb" src="thumbnails/thumbnail-1.webp">
+    <br>
+    <img class="cat" id="c1" src="thumbnails/cat.jpg">
+    <img class="cat" id="c2" src="thumbnails/cat.jpg">
+    <img class="cat" id="c3" src="thumbnails/cat.jpg">
+</body>
+</html>

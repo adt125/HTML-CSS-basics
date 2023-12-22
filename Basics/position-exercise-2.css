@@ -1,0 +1,39 @@
+.card{
+    position: relative;
+    display: inline-block;
+}
+.product-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+.offer{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.overlay{
+    background-color: rgb(255,255,255,0.5);
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-family: Arial;
+}

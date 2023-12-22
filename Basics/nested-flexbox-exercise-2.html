@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested-flexbox-exercise-2</title>
+</head>
+<body>
+    <div style="display: flex; height: 100px;">
+        <div style="display:flex; width: 100px; align-items: center; justify-content: center;background-color: lightblue;">
+            <div style="color: white; background-color: black;">
+                item1
+            </div>
+        </div>
+        <div style="width: 200px; background-color: lightpink;">
+        </div>
+    </div>
+
+    <div style="margin: 20px 0; display: flex; height: 100px;">
+        <div style="width:100px; background-color: lightblue;"></div>
+        <div style="width: 200px; background-color: lightpink;">
+            <div>row1</div>
+            <div style="display: flex; justify-content: space-between;">
+                <div style="background-color: black; color: white">row2</div>
+                <div style="background-color: black; color: white">row2</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

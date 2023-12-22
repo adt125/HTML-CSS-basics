@@ -1,0 +1,53 @@
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.twitter{
+    display: flex;
+    width: 405px;
+}
+.tweet-info{
+    flex:1;
+}
+.user-pic{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    margin-right: 12px;
+}
+.tweet-author{
+    display: flex;
+    margin-bottom: 5px;
+}
+.video-link{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid rgb(159, 157, 157);
+    border-radius: 15px;
+    overflow: hidden;
+}
+.left-panel{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(159, 157, 157);
+}
+.username{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.handle{
+    color: rgb(96,96,96);
+}
+.tweet{
+    font-weight: 500;
+    line-height: 20px;
+}
+.yt-link{
+    margin-left: 10px;
+    flex:1;
+    border-left: none;
+}

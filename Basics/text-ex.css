@@ -1,0 +1,69 @@
+p{
+    font-family: Verdana;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.desc{
+    color: rgb(96,96,96);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.about{
+    width: 300px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.start{
+    background-color: green;
+    color: white;
+    font-family: Verdana;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+.deals{
+    margin-top: 30px;
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.sale{
+    color:red;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.apple{
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.apple-help{
+    font-family: Arial;
+    text-align: center;
+    width: 350px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.learn{
+    text-align: center;
+    color: blue;
+    font-family: Arial;
+    width: 340px;
+}
+.learn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

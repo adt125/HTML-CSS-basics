@@ -1,0 +1,107 @@
+div{
+    margin-bottom: 30px;
+}
+.dp{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+    border-radius: 25px;
+}
+.tweet{
+    font-family: Arial;
+    font-size: 18px;
+    width: 300px;
+    border:none;
+    margin-left: 5px;
+    vertical-align: middle;
+    outline: none;
+}
+.tweet:focus{
+    color: rgb(96,96,96);
+}
+.tweet-button{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    cursor: pointer;  
+    vertical-align: middle;
+}
+.twitter{
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    width: 450px;
+    padding: 10px 10px;
+    border-radius: 6px;
+}
+.card{
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    display: inline-block;
+    margin-right: 10px;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 8px;
+}
+.name{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.mutual{
+    color: rgb(96,96,96);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.add{
+    background-color: rgb(29, 119, 242);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.logo{
+    width: 200px;
+    margin-bottom: 8px;
+}
+.search-box{
+    width: 488px;
+    border: none;
+    padding-top: 10px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 5px rgb(0,0,0,0.6);
+    outline: none;
+    margin-bottom: 10px;
+}
+.google{
+    text-align: center;
+    font-family: Arial;
+}
+.search-button{
+    background-color: rgb(245, 245, 245);
+    border: none;
+    padding: 15px 15px;
+    margin-right: 12px;
+    margin-top: 20px;
+}

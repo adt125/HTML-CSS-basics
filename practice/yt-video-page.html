@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube video page</title>
+    <link rel="icon" href="icons/favicon_32x32.png">
+    <link rel="stylesheet" href="yt-video-page-header.css">
+    <link rel="stylesheet" href="yt-video-page-video-section.css">
+    <link rel="stylesheet" href="yt-video-page-suggest-section.css">
+    <link rel="preconnect" href="https://fsonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+        <div class="mid">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="search-voice-button">
+                <img class="icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right">
+            <div class="util">
+                <img class="icon" src="icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="util">
+                <img class="icon" src="icons/youtube-apps.svg" alt="">
+                <div class="tooltip">YouTube Apps</div>
+            </div>
+            <div class="util">
+                <img class="icon" src="icons/notifications.svg" alt="">
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="user-pic" src="icons/profile-pic.jpg" alt="">
+        </div>
+    </header>
+
+    <main>
+        <section class="video-section">
+            <div class="video-player">
+                <iframe src="https://www.youtube.com/embed/6stlCkUDG_s?si=mQ5L0VE0bDvHtfx3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="video-title">
+                Sea waves & beach drone video | Free HD Video - no copyright
+            </div>
+            <div class="channel-panel">
+                <img class="channel-pic" src="channel-logo/penguin.jpg">
+                <div class="channel-data">
+                    <div class="channel-name">
+                        Satish
+                    </div>
+                    <div class="subscribers">
+                        1000M subscribers
+                    </div>
+                </div>
+                <button class="subscribe-button">
+                    Subscribe
+                </button>
+                <div class="button-panel">
+                    <button class="like-button">
+                        <img class="icon" src="icons/like.png" alt="">
+                        <div>50M</div>
+                    </button>
+                    <button class="dislike-button">
+                        <div class="separator"></div>
+                        <img class="icon" src="icons/dislike.png" alt="">
+                    </button>
+                    <button class="share-button">
+                        <img class="icon" src="icons/share.png" alt="">
+                        <div>Share</div>
+                    </button>
+                    <button class="download-button">
+                        <img class="icon" src="icons/download.png" alt="">
+                        <div>Download</div>
+                    </button>
+                    <button class="threedot-button">
+                        <img class="icon" src="icons/3dot.png" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="video-description">
+                <div>
+                    <span class="views">100B views</span>
+                    <span class="views">10 years ago</span>
+                </div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque iusto, ex tempora iure ipsa voluptas dolor, facilis eius reprehenderit officia incidunt. Ducimus odit ea est iste ab consequuntur, autem officiis sed vitae sunt veritatis natus voluptates facilis eius quasi earum iure nisi dignissimos id optio eum. Saepe amet ipsum dicta.
+            </div>
+            <section class="comment-section">
+                <div class="comment-stats">
+                    <span class="count">100k Comments</span>
+                    <span class="sort"><img class="icon" src="icons/sort.png" alt="">Sort by</span>
+                </div>
+                <div class="add-comment">
+                    <img class="user-pic" src="icons/profile-pic.jpg" alt="">
+                    <input class="add-comment-bar" type="text" placeholder="Add a comment...">
+                </div>
+                <ul class="comments">
+                    <li class="comment">
+                        <img class="user-pic" src="thumbnails/cat.jpg" alt="">
+                        <div class="comment-content">
+                            <div>
+                                <span class="user-id">@deven</span>
+                                <span class="time">2 years ago</span>
+                            </div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum debitis libero, dicta facere eius id modi eaque adipisci suscipit harum autem impedit tempore ipsam, magni eos sed ipsum? Facere soluta non praesentium in odit enim fuga voluptate, necessitatibus deserunt. Pariatur unde illum consequatur, facilis quod placeat quibusdam blanditiis beatae?
+                            <div class="comment-like-dislike">
+                                <img class="icon" src="icons/like.png" alt="">
+                                <span class="comment-like-cnt">1.5K</span>
+                                <img class="icon" src="icons/dislike.png" alt="">
+                                <button class="reply">Reply</button>
+                            </div>
+                            <div class="replies">
+                                <img src="icons/replies.png" alt="" class="reply-icon">
+                                <span class="reply-cnt">5 replies</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="comment">
+                        <img class="user-pic" src="thumbnails/cat.jpg" alt="">
+                        <div class="comment-content">
+                            <div>
+                                <span class="user-id">@deven</span>
+                                <span class="time">2 years ago</span>
+                            </div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum debitis libero, dicta facere eius id modi eaque adipisci suscipit harum autem impedit tempore ipsam, magni eos sed ipsum? Facere soluta non praesentium in odit enim fuga voluptate, necessitatibus deserunt. Pariatur unde illum consequatur, facilis quod placeat quibusdam blanditiis beatae?
+                            <div class="comment-like-dislike">
+                                <img class="icon" src="icons/like.png" alt="">
+                                <span class="comment-like-cnt">1.5K</span>
+                                <img class="icon" src="icons/dislike.png" alt="">
+                                <button class="reply">Reply</button>
+                            </div>
+                            <div class="replies">
+                                <img src="icons/replies.png" alt="" class="reply-icon">
+                                <span class="reply-cnt">5 replies</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="comment">
+                        <img class="user-pic" src="thumbnails/cat.jpg" alt="">
+                        <div class="comment-content">
+                            <div>
+                                <span class="user-id">@deven</span>
+                                <span class="time">2 years ago</span>
+                            </div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum debitis libero, dicta facere eius id modi eaque adipisci suscipit harum autem impedit tempore ipsam, magni eos sed ipsum? Facere soluta non praesentium in odit enim fuga voluptate, necessitatibus deserunt. Pariatur unde illum consequatur, facilis quod placeat quibusdam blanditiis beatae?
+                            <div class="comment-like-dislike">
+                                <img class="icon" src="icons/like.png" alt="">
+                                <span class="comment-like-cnt">1.5K</span>
+                                <img class="icon" src="icons/dislike.png" alt="">
+                                <button class="reply">Reply</button>
+                            </div>
+                            <div class="replies">
+                                <img src="icons/replies.png" alt="" class="reply-icon">
+                                <span class="reply-cnt">5 replies</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="comment">
+                        <img class="user-pic" src="thumbnails/cat.jpg" alt="">
+                        <div class="comment-content">
+                            <div>
+                                <span class="user-id">@deven</span>
+                                <span class="time">2 years ago</span>
+                            </div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum debitis libero, dicta facere eius id modi eaque adipisci suscipit harum autem impedit tempore ipsam, magni eos sed ipsum? Facere soluta non praesentium in odit enim fuga voluptate, necessitatibus deserunt. Pariatur unde illum consequatur, facilis quod placeat quibusdam blanditiis beatae?
+                            <div class="comment-like-dislike">
+                                <img class="icon" src="icons/like.png" alt="">
+                                <span class="comment-like-cnt">1.5K</span>
+                                <img class="icon" src="icons/dislike.png" alt="">
+                                <button class="reply">Reply</button>
+                            </div>
+                            <div class="replies">
+                                <img src="icons/replies.png" alt="" class="reply-icon">
+                                <span class="reply-cnt">5 replies</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="comment">
+                        <img class="user-pic" src="thumbnails/cat.jpg" alt="">
+                        <div class="comment-content">
+                            <div>
+                                <span class="user-id">@deven</span>
+                                <span class="time">2 years ago</span>
+                            </div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum debitis libero, dicta facere eius id modi eaque adipisci suscipit harum autem impedit tempore ipsam, magni eos sed ipsum? Facere soluta non praesentium in odit enim fuga voluptate, necessitatibus deserunt. Pariatur unde illum consequatur, facilis quod placeat quibusdam blanditiis beatae?
+                            <div class="comment-like-dislike">
+                                <img class="icon" src="icons/like.png" alt="">
+                                <span class="comment-like-cnt">1.5K</span>
+                                <img class="icon" src="icons/dislike.png" alt="">
+                                <button class="reply">Reply</button>
+                            </div>
+                            <div class="replies">
+                                <img src="icons/replies.png" alt="" class="reply-icon">
+                                <span class="reply-cnt">5 replies</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="comment">
+                        <img class="user-pic" src="thumbnails/cat.jpg" alt="">
+                        <div class="comment-content">
+                            <div>
+                                <span class="user-id">@deven</span>
+                                <span class="time">2 years ago</span>
+                            </div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum debitis libero, dicta facere eius id modi eaque adipisci suscipit harum autem impedit tempore ipsam, magni eos sed ipsum? Facere soluta non praesentium in odit enim fuga voluptate, necessitatibus deserunt. Pariatur unde illum consequatur, facilis quod placeat quibusdam blanditiis beatae?
+                            <div class="comment-like-dislike">
+                                <img class="icon" src="icons/like.png" alt="">
+                                <span class="comment-like-cnt">1.5K</span>
+                                <img class="icon" src="icons/dislike.png" alt="">
+                                <button class="reply">Reply</button>
+                            </div>
+                            <div class="replies">
+                                <img src="icons/replies.png" alt="" class="reply-icon">
+                                <span class="reply-cnt">5 replies</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </section>
+        
+        <section class="suggestion-section">
+            <div class="tabs">
+                <div class="tab">
+                    All
+                </div>
+                <div class="tab">
+                    From TSeries
+                </div>
+                <div class="tab">
+                    Lorem ipsum dolor sit amet.
+                </div>
+            </div>
+            <div class="suggestion-grid">
+                <div class="suggested-video">
+                    <div class="suggested-video-thumb">
+                        <img class="suggested-video-thumb-pic" src="thumbnails/thumbnail-1.webp" alt="">
+                    </div>
+                    <div class="suggested-video-info">
+                        <div class="suggested-video-title">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, pariatur.
+                        </div>
+                        <div class="suggested-video-channel">
+                            Marques Brownlee
+                        </div>
+                        <div class="suggested-video-views">
+                            3M views &#183; 16 minutes ago
+                        </div>
+                    </div>
+                    <div class="options">
+                        <img src="icons/vertical3dot.png" alt="" class="icon">
+                    </div>
+                </div>
+                <div class="suggested-video">
+                    <div class="suggested-video-thumb">
+                        <img class="suggested-video-thumb-pic" src="thumbnails/thumbnail-1.webp" alt="">
+                    </div>
+                    <div class="suggested-video-info">
+                        <div class="suggested-video-title">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, pariatur.
+                        </div>
+                        <div class="suggested-video-channel">
+                            Marques Brownlee
+                        </div>
+                        <div class="suggested-video-views">
+                            3M views &#183; 16 minutes ago
+                        </div>
+                    </div>
+                    <div class="options">
+                        <img src="icons/vertical3dot.png" alt="" class="icon">
+                    </div>
+                </div>
+                <div class="suggested-video">
+                    <div class="suggested-video-thumb">
+                        <img class="suggested-video-thumb-pic" src="thumbnails/thumbnail-1.webp" alt="">
+                    </div>
+                    <div class="suggested-video-info">
+                        <div class="suggested-video-title">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, pariatur.
+                        </div>
+                        <div class="suggested-video-channel">
+                            Marques Brownlee
+                        </div>
+                        <div class="suggested-video-views">
+                            3M views &#183; 16 minutes ago
+                        </div>
+                    </div>
+                    <div class="options">
+                        <img src="icons/vertical3dot.png" alt="" class="icon">
+                    </div>
+                </div>
+                <div class="suggested-video">
+                    <div class="suggested-video-thumb">
+                        <img class="suggested-video-thumb-pic" src="thumbnails/thumbnail-1.webp" alt="">
+                    </div>
+                    <div class="suggested-video-info">
+                        <div class="suggested-video-title">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, pariatur.
+                        </div>
+                        <div class="suggested-video-channel">
+                            Marques Brownlee
+                        </div>
+                        <div class="suggested-video-views">
+                            3M views &#183; 16 minutes ago
+                        </div>
+                    </div>
+                    <div class="options">
+                        <img src="icons/vertical3dot.png" alt="" class="icon">
+                    </div>
+                </div>
+                <div class="suggested-video">
+                    <div class="suggested-video-thumb">
+                        <img class="suggested-video-thumb-pic" src="thumbnails/thumbnail-1.webp" alt="">
+                    </div>
+                    <div class="suggested-video-info">
+                        <div class="suggested-video-title">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, pariatur.
+                        </div>
+                        <div class="suggested-video-channel">
+                            Marques Brownlee
+                        </div>
+                        <div class="suggested-video-views">
+                            3M views &#183; 16 minutes ago
+                        </div>
+                    </div>
+                    <div class="options">
+                        <img src="icons/vertical3dot.png" alt="" class="icon">
+                    </div>
+                </div>
+                <div class="suggested-video">
+                    <div class="suggested-video-thumb">
+                        <img class="suggested-video-thumb-pic" src="thumbnails/thumbnail-1.webp" alt="">
+                    </div>
+                    <div class="suggested-video-info">
+                        <div class="suggested-video-title">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, pariatur.
+                        </div>
+                        <div class="suggested-video-channel">
+                            Marques Brownlee
+                        </div>
+                        <div class="suggested-video-views">
+                            3M views &#183; 16 minutes ago
+                        </div>
+                    </div>
+                    <div class="options">
+                        <img src="icons/vertical3dot.png" alt="" class="icon">
+                    </div>
+                </div>
+                <div class="suggested-video">
+                    <div class="suggested-video-thumb">
+                        <img class="suggested-video-thumb-pic" src="thumbnails/thumbnail-1.webp" alt="">
+                    </div>
+                    <div class="suggested-video-info">
+                        <div class="suggested-video-title">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, pariatur.
+                        </div>
+                        <div class="suggested-video-channel">
+                            Marques Brownlee
+                        </div>
+                        <div class="suggested-video-views">
+                            3M views &#183; 16 minutes ago
+                        </div>
+                    </div>
+                    <div class="options">
+                        <img src="icons/vertical3dot.png" alt="" class="icon">
+                    </div>
+                </div>
+                <div class="suggested-video">
+                    <div class="suggested-video-thumb">
+                        <img class="suggested-video-thumb-pic" src="thumbnails/thumbnail-1.webp" alt="">
+                    </div>
+                    <div class="suggested-video-info">
+                        <div class="suggested-video-title">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, pariatur.
+                        </div>
+                        <div class="suggested-video-channel">
+                            Marques Brownlee
+                        </div>
+                        <div class="suggested-video-views">
+                            3M views &#183; 16 minutes ago
+                        </div>
+                    </div>
+                    <div class="options">
+                        <img src="icons/vertical3dot.png" alt="" class="icon">
+                    </div>
+                </div>
+                <div class="suggested-video">
+                    <div class="suggested-video-thumb">
+                        <img class="suggested-video-thumb-pic" src="thumbnails/thumbnail-1.webp" alt="">
+                    </div>
+                    <div class="suggested-video-info">
+                        <div class="suggested-video-title">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, pariatur.
+                        </div>
+                        <div class="suggested-video-channel">
+                            Marques Brownlee
+                        </div>
+                        <div class="suggested-video-views">
+                            3M views &#183; 16 minutes ago
+                        </div>
+                    </div>
+                    <div class="options">
+                        <img src="icons/vertical3dot.png" alt="" class="icon">
+                    </div>
+                </div>
+                <div class="suggested-video">
+                    <div class="suggested-video-thumb">
+                        <img class="suggested-video-thumb-pic" src="thumbnails/thumbnail-1.webp" alt="">
+                    </div>
+                    <div class="suggested-video-info">
+                        <div class="suggested-video-title">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, pariatur.
+                        </div>
+                        <div class="suggested-video-channel">
+                            Marques Brownlee
+                        </div>
+                        <div class="suggested-video-views">
+                            3M views &#183; 16 minutes ago
+                        </div>
+                    </div>
+                    <div class="options">
+                        <img src="icons/vertical3dot.png" alt="" class="icon">
+                    </div>
+                </div>
+                <div class="suggested-video">
+                    <div class="suggested-video-thumb">
+                        <img class="suggested-video-thumb-pic" src="thumbnails/thumbnail-1.webp" alt="">
+                    </div>
+                    <div class="suggested-video-info">
+                        <div class="suggested-video-title">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, pariatur.
+                        </div>
+                        <div class="suggested-video-channel">
+                            Marques Brownlee
+                        </div>
+                        <div class="suggested-video-views">
+                            3M views &#183; 16 minutes ago
+                        </div>
+                    </div>
+                    <div class="options">
+                        <img src="icons/vertical3dot.png" alt="" class="icon">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

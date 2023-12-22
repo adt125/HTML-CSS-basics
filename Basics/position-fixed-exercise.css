@@ -1,0 +1,124 @@
+body{
+    padding-bottom: 3000px;
+}
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 50px;
+    right: 50px;
+    background-color: white;
+    align-items: center;
+    height: 70px;
+}
+
+.pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.info {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.name {
+    font-family: Arial;
+    font-weight: bold;
+    flex: 1;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+.add {
+    background-color: rgb(18, 111, 232);
+    color: white;
+    border: none;
+    width: 100px;
+    padding: 10px 0;
+    margin-right: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.dm {
+    background-color: rgb(240, 240, 240);
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.sidebar-1 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 80px;
+    background-color: rgb(40, 40, 40);
+    width: 70px;
+    padding: 10px 10px;
+}
+/* .pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    cursor: pointer;
+    width: 100%;
+} */
+.pics:hover{
+    background-color: rgb(60, 60, 60);
+}
+
+.sidebar-2 {
+    position: fixed;
+    left: 70px;
+    bottom: 0;
+    top: 80px;
+    width: 150px;
+    background-color: rgb(60, 60, 60);
+    font-family: Arial;
+    padding: 15px 15px;
+    padding-bottom: 0;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: white;
+    font-size: 14px;
+}
+
+.add-new {
+    font-size: 25px;
+    color: rgb(150,150,150);
+}
+
+.channel {
+    color: rgb(150,150,150);
+    margin-bottom: 15px;
+}
