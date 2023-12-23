@@ -13,39 +13,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
-        <div class="left-section">
+    <header class="header">
+        <div class="left">
             <img class="hamburger-menu" src="icons/hamburger-menu.svg">
-            <img class="yt-logo" src="icons/youtube-logo.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
         </div>
-        <div class="mid-section">
-            <input class="search-box" type="text" placeholder="Search">
-            <button class="search-icon-button">
+        <div class="mid">
+            <div class="search">
+                <input class="search-bar" type="text" placeholder="Search">
+                <div class="hidden">
+                    <img src="icons/search.svg" alt="" class="hidden-icon">
+                </div>
+            </div>
+            <button class="search-button">
                 <img class="icon" src="icons/search.svg">
                 <div class="tooltip">Search</div>
             </button>
-            <button class="voice-search-button">
-                <img class="icon" src="icons/voice-search-icon.svg" alt="">
+            <button class="search-voice-button">
+                <img class="icon" src="icons/voice-search-icon.svg">
                 <div class="tooltip">Search with your voice</div>
             </button>
         </div>
-        <div class="right-section">
-            <div class="upload">
+        <div class="right">
+            <div class="util">
                 <img class="icon" src="icons/upload.svg" alt="">
                 <div class="tooltip">Create</div>
             </div>
-            <div class="yt-apps">
+            <div class="util">
                 <img class="icon" src="icons/youtube-apps.svg" alt="">
                 <div class="tooltip">YouTube Apps</div>
             </div>
-            <div class="notification-section">
+            <div class="util">
                 <img class="icon" src="icons/notifications.svg" alt="">
-                <div class="notification">3</div>
                 <div class="tooltip">Notifications</div>
             </div>
             <img class="user-pic" src="icons/profile-pic.jpg" alt="">
         </div>
-    </div>
+    </header>
     <nav class="sidebar">
         <div class="sidebar-link">
             <img src="icons/home.svg" alt="">
