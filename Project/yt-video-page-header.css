@@ -38,11 +38,11 @@ body{
 }
 .mid{
     flex:1;
-    max-width: 650px;
+    max-width: 700px;
     display: flex;
-    justify-content: center;
-    margin-left: 50px;
+    justify-content: end;
     position: relative;
+    margin-left: 50px;
 }
 .header button{
     position: relative;
@@ -81,6 +81,7 @@ body{
 .search{
     flex:1;
     width: 0;
+    max-width: 520px;
     border: 1px solid rgb(204,204,204);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -97,29 +98,26 @@ body{
 }
 .hidden{
     position: absolute;
-    left: -20px;
+    left: 15px;
     opacity: 0;
-    /* padding-left: 10px; */
-    padding: 7px;
-    padding-right: 0;
 }
 .search:focus-within{
     border-color: blue;
-    border-left: none;
-    border-radius: 0;
+    max-width: 550px;
 }
-.search-bar:focus-within + .hidden{
+.search:focus-within .hidden{
     opacity: 1;
-    border: 1px solid blue;
-    border-right: none;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
 }
 .search-bar{
-    flex:1;
+    position: absolute;
+    left:15px;
+    right: 0;
     outline: none;
     border: none;
     font-size: 16px;
+}
+.search:focus-within .search-bar{
+    left: 45px;
 }
 .search-bar::placeholder{
     font-size: 16px;
