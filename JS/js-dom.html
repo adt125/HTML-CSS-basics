@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM</title>
+    <style>
+        .play-button{
+            margin: 10px 0;
+            background-color: black;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Subscribe to channel</p>
+    <button class="subscribe-button" onclick="
+        subscribe();
+    ">
+        Subscribe
+    </button>
+    <br>
+    <a href="js-stone-paper-scissor.html"><button class="play-button">
+        Play
+    </button></a>
+    <script>
+        function subscribe()
+        {
+            const buttonText=document.querySelector('.subscribe-button');
+            if(buttonText.innerText==='Subscribe')
+                buttonText.innerText='Subscribed';
+            else
+                buttonText.innerText='Subscribe';
+        }
+    </script>
+</body>
+
+</html>

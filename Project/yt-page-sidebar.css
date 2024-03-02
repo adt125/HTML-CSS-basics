@@ -2,13 +2,12 @@
 {
     .sidebar{
         position: fixed;
-        top: 60px;
+        top: 56px;
         left: 0;
         bottom: 0;
         width: 70px;
         background-color: white;
         z-index: 2;
-        padding-top: 5px;
     }
     .sidebar-link{
         height: 70px;
@@ -36,13 +35,12 @@
     }
     .sidebar{
         position: fixed;
-        top: 60px;
+        top: 56px;
         left: 0;
         bottom: 0;
         width: 200px;
         background-color: white;
         z-index: 2;
-        padding-top: 5px;
     }
     .sidebar-link{
         height: 70px;

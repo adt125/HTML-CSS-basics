@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-objects</title>
+</head>
+<body>
+    <script>
+        let product={
+            name: 'car',
+            color: 'blue'
+        };
+        console.log(product);
+        console.log(product.name);
+        product.type='4w';
+        console.log(product);
+
+        let car={
+            name: 'jeep',
+            color: 'black',
+            properties:{
+                style: '4w',
+                speed: 'fast'
+            },
+            fun: function drive(){
+                console.log('driving');
+            }
+        };
+
+        console.log(car);
+        car.fun();
+        console.log(car.properties.speed);
+        
+        //js object to json
+        console.log(JSON.stringify(car));
+        console.log(typeof JSON.stringify(car));
+        
+        let jsonstr=JSON.stringify(car);
+        console.log(JSON.parse(jsonstr));
+
+        localStorage.setItem('name','String value only');
+        console.log(localStorage.getItem('name'));
+    </script>
+</body>
+</html>
