@@ -31,6 +31,19 @@
     <a href="js-stone-paper-scissor.html"><button class="play-button">
         Play
     </button></a>
+    <p>Cost: </p>
+    <input class="cost" type="text" placeholder="Cost of items" onkeydown="
+        calculateKeyDown(event);
+        // console.log(event.key);
+    ">
+    <button onclick="
+        calculate();
+    ">
+        Calculate
+    </button>
+    <p>Items over  &#8377;500 :  Free Delivery</p>
+    <p>Items below  &#8377;500 :  &#8377;50 Delivery</p>
+    <p class="final-price"></p>
     <script>
         function subscribe()
         {
@@ -39,6 +52,20 @@
                 buttonText.innerText='Subscribed';
             else
                 buttonText.innerText='Subscribe';
+        }
+        function calculate()
+        {
+            let cost=Number(document.querySelector('.cost').value);
+            if(cost<499)
+                cost+=50;
+            let finalPriceElement=document.querySelector('.final-price');
+
+            finalPriceElement.innerHTML = `&#8377;${cost}`;
+        }
+        function calculateKeyDown(event)
+        {
+            if(event.key === 'Enter')
+                calculate();
         }
     </script>
 </body>

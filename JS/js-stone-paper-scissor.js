@@ -50,7 +50,7 @@ function choice_str(choice) {
         c = "scissor";
     return c;
 }
-function display_result(choice) {
+function play(choice) {
 
     let rand = Math.floor(Math.random() * 10) % 3;
     let result = check(choice, rand);
@@ -62,7 +62,7 @@ function display_result(choice) {
         score.ties++;
 
     localStorage.setItem('score', JSON.stringify(score));
-    show_choice(choice);
+    show_choice(choice,rand);
     show_result(result);
     show_score();
 }
@@ -77,7 +77,7 @@ function reset() {
     show_score();
     localStorage.removeItem('score');
 }
-function show_choice(choice) {
+function show_choice(choice,rand) {
     document.getElementById("choice").innerHTML =
         `You chose: <b>${choice_str(choice)}</b>, cpu chose: <b>${choice_str(rand)}</b>`;
 }
